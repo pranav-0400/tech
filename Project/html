@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pepsi Landing Page</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="pepsi-logo.png" alt="Pepsi Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">View Products</a>
+          <ul>
+            <li><a href="#">Pepsi Zero Sugar</a></li>
+            <li><a href="#">Diet Pepsi</a></li>
+            <li><a href="#">Pepsi Caffeine Free</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Buy Pepsi</a></li>
+      </ul>
+    </nav>
+    <div class="cta">
+      <a href="#" class="circle-button">Buy Pepsi</a>
+    </div>
+  </header>
+
+  <section id="main-content">
+    <div class="content-section">
+      <h1 class="animated-text bigger">Welcome to Pepsi</h1>
+      <p class="animated-text bigger">Discover the refreshing taste of Pepsi products.</p>
+      <a href="#" class="learn-more-button">Learn More</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="feature">
+      <img src="pepsi.png" alt="Pepsi" class="zoomable-image">
+      <br><br>
+      <h2>The Real Taste of Pepsi</h2>
+    </div>
+    <div class="additional-images">
+      <img src="pepsi-blue.png" alt="Pepsi Blue" class="zoomable-image" data-color="blue">
+      <img src="pepsi-red.png" alt="Pepsi Red" class="zoomable-image" data-color="red">
+      <img src="pepsi-black.png" alt="Pepsi Black" class="zoomable-image" data-color="black">
+    </div>
+  </section>
+
+  <section id="facts">
+    <h2>Nutritional Facts</h2>
+    <div class="pricing-plans">
+      <p class="nutritional-facts">NUTRITION FACTS</p>
+      <div class="nutritional-details">
+        <p>Serving Size 12 fl oz (355 mL)</p>
+        <p>Servings Per Container 1</p>
+        <p>Amount Per Serving</p>
+        <p>Calories 150</p>
+        <p>Total Fat 0g</p>
+        <p>Sodium 30mg 1%</p>
+        <p>Total Carbohydrate 41g 14%</p>
+        <p>Sugars 41g</p>
+        <p>Protein 0g</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <img src="pepsi-blue.png" alt="Product 1">
+        <!-- <h3>Product 1</h3> -->
+        <div class="price-box">Rs 90</div>
+      </div>
+      <div class="pricing-card">
+        <img src="pepsi-red.png" alt="Product 2">
+        <!-- <h3>Product 2</h3> -->
+        <div class="price-box">Rs 60</div>
+      </div>
+      <div class="pricing-card">
+        <img src="pepsi-black.png" alt="Product 3">
+        <!-- <h3>Product 3</h3> -->
+        <div class="price-box">Rs 70</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faqs">
+    <h2>FAQs</h2>
+    <div class="faq-list">
+        <div class="faq-item">
+            <h3 class="question">What flavors of Pepsi are available? <span class="arrow">&#9660;</span></h3>
+            <div class="answer">Pepsi offers a variety of flavors including Pepsi Zero Sugar, Diet Pepsi, Pepsi Caffeine Free, and classic Pepsi with sugar.</div>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Is Pepsi suitable for vegetarians and vegans? <span class="arrow">&#9660;</span></h3>
+            <div class="answer">Yes, Pepsi products are suitable for vegetarians and vegans as they do not contain any animal-derived ingredients.</div>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">How much caffeine is in Pepsi? <span class="arrow">&#9660;</span></h3>
+            <div class="answer">A standard 12 fl oz (355 mL) can of Pepsi contains about 38 mg of caffeine.</div>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Does Pepsi have any sugar-free options? <span class="arrow">&#9660;</span></h3>
+            <div class="answer">Yes, Pepsi offers sugar-free options like Pepsi Zero Sugar and Diet Pepsi for those looking to reduce their sugar intake.</div>
+        </div>
+        <div class="faq-item">
+            <h3 class="question">Does Pepsi use artificial sweeteners in its products? <span class="arrow">&#9660;</span></h3>
+            <div class="answer">Yes, Pepsi utilizes artificial sweeteners in some of its products.</div>
+        </div>
+    </div>
+</section>
+
+
+  <footer>
+    <div class="footer-logo">
+      <img src="pepsi-logo.png" alt="Big Pepsi Logo">
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#" style="text-decoration: none; color: white;">Contact Us</a></li>
+        <li><a href="#" style="text-decoration: none; color: white;">Terms and Conditions</a></li>
+        <li><a href="#" style="text-decoration: none; color: white;">Pricing Policy</a></li>
+        <li><a href="#" style="text-decoration: none; color: white;">Copyright</a></li>
+        <li><a href="#" style="text-decoration: none; color: white;">Store Locator</a></li>
+        <li><a href="#" style="text-decoration: none; color: white;">Careers</a></li>
+
+
+      </ul>
+    </div>
+    <div class="social-links">
+        <a href="#"><img src="youtube.png" alt="YouTube" class="social-icon"></a>
+        <a href="#"><img src="twitter.png" alt="Twitter" class="social-icon"></a>
+        <a href="#"><img src="instagram.jpeg" alt="Instagram" class="social-icon"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
